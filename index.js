@@ -2,8 +2,8 @@
  *  自定义网站配置 
  */
 const config = {
-  title: "自定义导航",                 //write your website title
-  subtitle: "Cloudflare Workers Dir", //write your website subtitle
+  title: "小羊阿苏的导航",                 //write your website title
+  subtitle: "秘密的花园", //write your website subtitle
   logo_icon: "sitemap",               //select your logo by semantic-ui icon (you can get more msg in:https://semantic-ui.com/elements/icon.html)
   hitokoto: true,                     //use hitokoto or not
   search:true,                        //enable search function
@@ -27,66 +27,66 @@ const config = {
   ],
   selling_ads: true,                  //Selling your domain or not.(turning on may be helpful for selling this domain by showing some ads.)
   sell_info:{
-    domain:"example.com",
-    price:500,                        //domain price
+    domain:"sohappy.pp.ua",
+    price:100,                        //domain price
     mon_unit:"yen sign",              //monetary unit 
     contact:[                         //how to contact you
       {
         type:"envelope",               //contact type ("weixin","qq","telegram plane","envelope" or "phone")
-        content:"info@example.com"
+        content:"soyoung@yuleona.eu.org"
       }
     ]                        
   },
   lists: [                            //Url list
     {
-      name:"技术",
+      name:"我的网页",
       icon:"code",
       list:[
         {
-          url:"https://oschina.net/",
-          name:"开源中国",
-          desc:"程序员集散地"
+          url:"http://vps.soyoung.eu.org:8008/",
+          name:"SoYoung的VPS",
+          desc:"监控"
         },
         {
-          url:"https://v2ex.com",
-          name:"V2EX",
-          desc:"程序员集散地"
+          url:"http://vps.yuleona.eu.org:8008/",
+          name:"我的监控",
+          desc:"监控"
         },
         {
-          url:"https://csdn.net/",
-          name:"CSDN技术社区",
-          desc:"程序员集散地"
+          url:"https://jc.soyoung.pp.ua/",
+          name:"SecretCloud",
+          desc:"机场"
         },
         {
-          url:"https://github.com/",
-          name:"Github",
-          desc:"程序员集散地"
+          url:"http://146.56.149.178:7800/sy5668773sy/",
+          name:"aaPanel",
+          desc:"My aaPanel"
         },
       ]
     },
     {
-      name:"学习",
-      icon:"graduation cap",
+      name:"视频网站",
+      icon:"video",
       list:[
         {
-          url:"https://w3school.com.cn/",
-          name:"W3school在线教程",
-          desc:"程序员集散地"
+          url:"https://www.youtube.com/",
+          name:"Youtube",
+          desc:"全世界最大的视频平台"
         },
         {
-          url:"https://runoob.com/",
-          name:"菜鸟教程",
-          desc:"程序员集散地"
+          url:"https://www.tiktok.com/ja-JP/",
+          name:"TikTok(日本)",
+          desc:"社交视频平台"
         },
         {
-          url:"https://segmentfault.com/",
-          name:"思否社区",
-          desc:"程序员集散地"
+          url:"https://www.facebook.com/",
+          name:"FaceBook",
+          desc:"社交平台"
         },
         {
-          url:"https://jianshu.com/",
-          name:"简书",
-          desc:"程序员集散地"
+          url:"https://twitter.com/",
+          name:"Twitter",
+          desc:"社交平台"
         },
       ]
     }
